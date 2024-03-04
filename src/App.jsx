@@ -3,9 +3,9 @@ import './App.css'
 
 function App() {
   const [click, setClick] = useState(1)
-  const [pokemonName, setPokemonName] = useState([])
-  const [pokemonImage, setPokemonImage] = useState([''])
-  const [pokemonSprite, setPokemonSprite] = useState([''])
+  const [pokemonName, setPokemonName] = useState('')
+  const [pokemonImage, setPokemonImage] = useState('')
+  const [pokemonSprite, setPokemonSprite] = useState('')
 
   const handleNextClick = () => {
     setClick(click + 1)
